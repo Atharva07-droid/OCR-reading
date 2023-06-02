@@ -9,6 +9,7 @@ from PIL import Image
 from datetime import datetime
 
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# use your own system path here
 
 class PAN_OCR:
     def __init__(self, img_path):
